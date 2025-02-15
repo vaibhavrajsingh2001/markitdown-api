@@ -1,0 +1,11 @@
+[project]
+name = "markitdown-api"
+version = "0.1.0"
+description = "Simple fastapi server that converts files to markdown"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.8",
+    "markitdown>=0.0.1a4",
+    "python-multipart>=0.0.20",
+]
